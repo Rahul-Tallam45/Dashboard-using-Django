@@ -1,0 +1,44 @@
+/* src/app/styles/Home.module.css */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .heading1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .heading2 {
+    font-size: 2em;
+    margin: 20px 0 10px;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .listItem {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .heading1 {
+      font-size: 2em;
+    }
+  
+    .heading2 {
+      font-size: 1.5em;
+    }
+  }
+  
